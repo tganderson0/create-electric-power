@@ -1,3 +1,4 @@
 {
-  "block.createelectricpower.electric_motor": "Electric Motor"
+  "block.createelectricpower.electric_motor": "Electric Motor",
+  "block.createelectricpower.generator": "Generator"
 }

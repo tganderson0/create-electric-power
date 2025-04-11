@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "createelectricpower:block/generator/block_vertical",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "createelectricpower:block/generator/block",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "createelectricpower:block/generator/block",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "createelectricpower:block/generator/block"
+    },
+    "facing=up": {
+      "model": "createelectricpower:block/generator/block_vertical"
+    },
+    "facing=west": {
+      "model": "createelectricpower:block/generator/block",
+      "y": 90
+    }
+  }
+}

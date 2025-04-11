@@ -153,14 +153,15 @@ public class ElectricMotorBlockEntity extends GeneratingKineticBlockEntity {
     @Override
     public void tick(){
         super.tick();
+        if (level == null) return;
+        if (level.isClientSide()) return;
+
         if (firstRun){
             motorSpeed = generatedSpeed.getValue();
             updateGeneratedRotation();
             firstRun = false;
         }
 
-        assert level != null;
-        if (level.isClientSide()) return;
         int requiredInput = getRequiredInput(motorSpeed);
         if(!active){
             if (energyStorage.getEnergyStored() > requiredInput * 2 && !getBlockState().getValue(ElectricMotorBlock.POWERED)) {

@@ -1,24 +1,46 @@
 {
   "variants": {
-    "facing=down": {
+    "facing=down,powered=false": {
       "model": "createelectricpower:block/electric_motor/block_vertical",
       "x": 180
     },
-    "facing=east": {
+    "facing=down,powered=true": {
+      "model": "createelectricpower:block/electric_motor/block_vertical",
+      "x": 180
+    },
+    "facing=east,powered=false": {
       "model": "createelectricpower:block/electric_motor/block",
       "y": 270
     },
-    "facing=north": {
+    "facing=east,powered=true": {
+      "model": "createelectricpower:block/electric_motor/block",
+      "y": 270
+    },
+    "facing=north,powered=false": {
       "model": "createelectricpower:block/electric_motor/block",
       "y": 180
     },
-    "facing=south": {
+    "facing=north,powered=true": {
+      "model": "createelectricpower:block/electric_motor/block",
+      "y": 180
+    },
+    "facing=south,powered=false": {
       "model": "createelectricpower:block/electric_motor/block"
     },
-    "facing=up": {
+    "facing=south,powered=true": {
+      "model": "createelectricpower:block/electric_motor/block"
+    },
+    "facing=up,powered=false": {
       "model": "createelectricpower:block/electric_motor/block_vertical"
     },
-    "facing=west": {
+    "facing=up,powered=true": {
+      "model": "createelectricpower:block/electric_motor/block_vertical"
+    },
+    "facing=west,powered=false": {
+      "model": "createelectricpower:block/electric_motor/block",
+      "y": 90
+    },
+    "facing=west,powered=true": {
       "model": "createelectricpower:block/electric_motor/block",
       "y": 90
     }
