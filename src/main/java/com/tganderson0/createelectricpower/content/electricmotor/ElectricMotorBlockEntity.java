@@ -3,14 +3,13 @@ package com.tganderson0.createelectricpower.content.electricmotor;
 import java.util.List;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import com.simibubi.create.AllBlocks;
 import com.simibubi.create.content.kinetics.base.GeneratingKineticBlockEntity;
 import com.simibubi.create.content.kinetics.motor.KineticScrollValueBehaviour;
 import com.simibubi.create.foundation.blockEntity.behaviour.BlockEntityBehaviour;
 import com.simibubi.create.foundation.blockEntity.behaviour.ValueBoxTransform;
 import com.simibubi.create.foundation.blockEntity.behaviour.scrollValue.ScrollValueBehaviour;
-import com.simibubi.create.foundation.utility.CreateLang;
 
+import com.tganderson0.createelectricpower.register.EpBlocks;
 import dev.engine_room.flywheel.lib.transform.TransformStack;
 import net.createmod.catnip.math.VecHelper;
 import net.createmod.catnip.math.AngleHelper;
@@ -55,7 +54,7 @@ public class ElectricMotorBlockEntity extends GeneratingKineticBlockEntity {
 
     @Override
     public float getGeneratedSpeed() {
-        if (!AllBlocks.CREATIVE_MOTOR.has(getBlockState()))
+        if (!EpBlocks.ELECTRIC_MOTOR.has(getBlockState()))
             return 0;
         return convertToDirection(generatedSpeed.getValue(), getBlockState().getValue(ElectricMotorBlock.FACING));
     }
