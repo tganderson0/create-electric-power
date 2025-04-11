@@ -2,9 +2,9 @@
   "credit": "Made with Blockbench",
   "parent": "block/block",
   "textures": {
-    "5": "createelectricpower:block/creative_casing",
-    "6": "createelectricpower:block/creative_motor",
-    "particle": "createelectricpower:block/creative_casing",
+    "5": "createelectricpower:block/generator_casing",
+    "6": "createelectricpower:block/generator",
+    "particle": "createelectricpower:block/generator_casing",
     "1_0": "createelectricpower:block/axis"
   },
   "elements": [
