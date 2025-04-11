@@ -1,0 +1,8 @@
+// 1.21.1	2025-04-10T18:31:23.1151784	Registrate Provider for createelectricpower [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (enchantments), Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
+47fd96eb6bed47e4190df6458b0e989648c74b7f assets/createelectricpower/blockstates/electric_motor.json
+667b4b730e4a99e0cd93153febf27adc79ec6b0e assets/createelectricpower/lang/en_ud.json
+863aa01a7996bbfdd58042a51e8d95ee681df570 assets/createelectricpower/lang/en_us.json
+559f007f59f483d9bbc9b49164f2c875b25c41a8 assets/createelectricpower/models/item/electric_motor.json
+9f90a58c7f462f66e2149470013823e13c1acd82 data/createelectricpower/loot_table/blocks/electric_motor.json
+0b229c8bf4abe154990a2fc377247b9e8354c3ef data/create/tags/block/brittle.json
+0b229c8bf4abe154990a2fc377247b9e8354c3ef data/minecraft/tags/block/mineable/pickaxe.json
